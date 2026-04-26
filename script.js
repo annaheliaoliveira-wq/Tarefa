@@ -2,6 +2,7 @@ function gerarMensagem() {
 
     let mensagens = [
         "Você é incrível! 💖",
+        "Deus está nos detalhes! 🙌🏻🙏🏻",
         "Hoje vai dar tudo certo! ✨",
         "Confie em você! 💪",
         "Nunca desista! 🚀",
