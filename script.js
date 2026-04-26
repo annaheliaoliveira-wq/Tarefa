@@ -21,10 +21,11 @@ function gerarMensagem() {
     let p = document.createElement("p");
     p.classList.add("mensagem");
 
-    p.innerText = mensagens[sorteio];
+    // EXIBE A MENSAGEM (corrigido)
+    p.innerHTML = mensagens[sorteio];
 
-    // Aplica cor no texto
-    p.style.color = cor;
+    // COR DO TEXTO (corrigido para não sumir)
+    p.style.color = "#000";
 
     // Mostra no HTML
     let div = document.getElementById("resultado");
